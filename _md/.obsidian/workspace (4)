@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "501e1f088b5deac0",
@@ -109,14 +108,11 @@
   "active": "8bced56fdb131ea1",
   "lastOpenFiles": [
     "1. Django - первое знакомство. Подготовка к проекту.md",
-    "3. Маршрутизация, обработка исключений запросов, перенаправление.md",
     "2. Модель MTV. Маршрутизация. Функции представления..md",
-    "attachment/Pasted image 20220711204158.png",
-    "attachment/Pasted image 20220711202053.png",
-    "attachment/Pasted image 20220711201047.png",
     "photo_2021-06-13_19-32-50.jpg",
     "e1c3cab7-4edb-4267-a23f-93049a42d938.jpg",
     "Pasted image 20220711200428.png",
-    "Pasted image 20220711192006.png"
+    "Pasted image 20220711192006.png",
+    "1. Подготовка к проекту.md"
   ]
 }
