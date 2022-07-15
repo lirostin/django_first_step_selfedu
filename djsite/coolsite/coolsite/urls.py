@@ -13,6 +13,8 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from coolsite import settings
+from django.conf.urls.static import static
 from cgitb import handler
 from women.views import *
 from django.contrib import admin
@@ -23,5 +25,9 @@ urlpatterns = [
     path('', include('women.urls')),
     path('cats/<int:catid>/', categories),
 ]
+
+# в режиме откладки добавляем дополнительный путь для медиафайлов
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = pageNotFound
