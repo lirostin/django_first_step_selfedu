@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "6.1 Шаблонизатор Jinja.md",
+            "file": "6. Шаблоны (templates). Начало.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6.1 Шаблонизатор Jinja.md",
+                "file": "6. Шаблоны (templates). Начало.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6.1 Шаблонизатор Jinja.md"
+                "file": "6. Шаблоны (templates). Начало.md"
               }
             }
           }
@@ -108,8 +108,8 @@
   },
   "active": "c75ed2d6fd9b57ad",
   "lastOpenFiles": [
-    "1. Django - первое знакомство. Подготовка к проекту.md",
     "6.1 Шаблонизатор Jinja.md",
+    "1. Django - первое знакомство. Подготовка к проекту.md",
     "VisualStudioCode.md",
     "Термины, список приложений.md",
     "6. Шаблоны (templates). Начало.md",
