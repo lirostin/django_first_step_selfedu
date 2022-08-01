@@ -23,7 +23,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('women.urls')),
-    path('cats/<int:catid>/', categories),
+    #path('cats/<int:catid>/', categories),
 ]
 
 # в режиме откладки добавляем дополнительный путь для медиафайлов
